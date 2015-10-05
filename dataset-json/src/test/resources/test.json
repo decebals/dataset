@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sharlene Pugh",
+    "gender": "female",
+    "age": 35,
+    "email": "sharlenepugh@slofast.com",
+    "company": "SLOFAST",
+    "id": 0,
+    "isActive": true
+  },
+  {
+    "name": "Mitzi Nicholson",
+    "gender": "female",
+    "age": 36,
+    "email": "mitzinicholson@neurocell.com",
+    "company": "NEUROCELL",
+    "id": 1,
+    "isActive": true
+  },
+  {
+    "name": "Benson Chang",
+    "gender": "male",
+    "age": 36,
+    "email": "bensonchang@ronbert.com",
+    "company": "RONBERT",
+    "id": 2,
+    "isActive": true
+  },
+  {
+    "name": "Veronica Mann",
+    "gender": "female",
+    "age": 34,
+    "email": "veronicamann@hawkster.com",
+    "company": "HAWKSTER",
+    "id": 3,
+    "isActive": false
+  },
+  {
+    "name": "Shauna Spencer",
+    "gender": "female",
+    "age": 36,
+    "email": "shaunaspencer@helixo.com",
+    "company": "HELIXO",
+    "id": 4,
+    "isActive": true
+  },
+  {
+    "name": "Ferguson Carver",
+    "gender": "male",
+    "age": 31,
+    "email": "fergusoncarver@exposa.com",
+    "company": "EXPOSA",
+    "id": 5,
+    "isActive": false
+  },
+  {
+    "name": "Ford Summers",
+    "gender": "male",
+    "age": 26,
+    "email": "fordsummers@gluid.com",
+    "company": "GLUID",
+    "id": 6,
+    "isActive": false
+  },
+  {
+    "name": "Suzette Franklin",
+    "gender": "female",
+    "age": 20,
+    "email": "suzettefranklin@zidant.com",
+    "company": "ZIDANT",
+    "id": 7,
+    "isActive": false
+  }
+]

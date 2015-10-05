@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://www.bnr.ro/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bnr.ro/xsd nbrfxrates.xsd">
+    <Header>
+        <Publisher>National Bank of Romania</Publisher>
+        <PublishingDate>2015-09-22</PublishingDate>
+        <MessageType>DR</MessageType>
+    </Header>
+    <Body>
+        <Subject>Reference rates</Subject>
+        <OrigCurrency>RON</OrigCurrency>
+        <Cube date="2015-09-22">
+            <Rate currency="AED">1.0766</Rate>
+            <Rate currency="AUD">2.8123</Rate>
+            <Rate currency="BGN">2.2607</Rate>
+            <Rate currency="BRL">0.9922</Rate>
+            <Rate currency="CAD">2.9848</Rate>
+            <Rate currency="CHF">4.0654</Rate>
+            <Rate currency="CNY">0.6202</Rate>
+            <Rate currency="CZK">0.1635</Rate>
+            <Rate currency="DKK">0.5927</Rate>
+            <Rate currency="EGP">0.5050</Rate>
+            <Rate currency="EUR">4.4215</Rate>
+            <Rate currency="GBP">6.1176</Rate>
+            <Rate currency="HRK">0.5789</Rate>
+            <Rate currency="HUF" multiplier="100">1.4252</Rate>
+            <Rate currency="INR">0.0600</Rate>
+            <Rate currency="JPY" multiplier="100">3.2983</Rate>
+            <Rate currency="KRW" multiplier="100">0.3344</Rate>
+            <Rate currency="MDL">0.2013</Rate>
+            <Rate currency="MXN">0.2361</Rate>
+            <Rate currency="NOK">0.4797</Rate>
+            <Rate currency="NZD">2.4998</Rate>
+            <Rate currency="PLN">1.0550</Rate>
+            <Rate currency="RSD">0.0368</Rate>
+            <Rate currency="RUB">0.0597</Rate>
+            <Rate currency="SEK">0.4730</Rate>
+            <Rate currency="TRY">1.3124</Rate>
+            <Rate currency="UAH">0.1826</Rate>
+            <Rate currency="USD">3.9541</Rate>
+            <Rate currency="XAU">143.4501</Rate>
+            <Rate currency="XDR">5.5580</Rate>
+            <Rate currency="ZAR">0.2908</Rate>
+        </Cube>
+    </Body>
+</DataSet>
