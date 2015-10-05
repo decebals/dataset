@@ -56,12 +56,12 @@ while (dataSet.next()) {
     count++;
     // show the current row number
     System.out.println(dataSet.getCursorPosition());
-    System.out.println(>>>>>>>>>>>>>>>>>>>>>>>>>>>>>);
+    System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
     // show all fields
     for (int i = 0; i < fieldCount; i++) {
         System.out.println(dataSet.getObject(i));
     }
-    System.out.println(<<<<<<<<<<<<<<<<<<<<<<<<<<<<<);
+    System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 }
 assertEquals(500, dataSet.getCursorPosition());
 assertEquals(500, count);
