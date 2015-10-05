@@ -4,9 +4,6 @@ Generic DataSet Framework in Java
 [![Coverage Status](https://coveralls.io/repos/decebals/dataset/badge.svg?branch=master&service=github)](https://coveralls.io/github/decebals/dataset?branch=master)
 [![Maven Central](http://img.shields.io/maven-central/v/ro.fortsoft.dataset/dataset.svg)](http://search.maven.org/#search|ga|1|ro.fortsoft.dataset)
 
-[![Issue Stats](http://www.issuestats.com/github/decebals/dataset/badge/issue?style=flat)](http://www.issuestats.com/github/decebals/dataset)
-[![Issue Stats](http://www.issuestats.com/github/decebals/dataset/badge/pr?style=flat)](http://www.issuestats.com/github/decebals/dataset)
-
 It's an open source (Apache License) Generic DataSet Framework in Java, with minimal dependencies and a quick learning curve.     
 The goal of this project is to create a DataSet concept similar with ResultSet from JDBC but with support for many data stores.
 
@@ -14,7 +11,7 @@ Modules
 -------------------
 Practically this is a microframework and the aim is to keep the core simple but extensible.
 For now are available these modules:
-- dataset-core (defines the core interfaces and classes; add `InMemoryDataSet` and `ResultSetDataSet` implementations)
+- __dataset-core__ (defines the core interfaces and classes; add `InMemoryDataSet` and `ResultSetDataSet` implementations)
 - __dataset-csv__ (add `CsvDataSet`)
 - __dataset-json__ (add `JsonDataSet`)
 - __dataset-xls__ (add `XlsDataSet`)
