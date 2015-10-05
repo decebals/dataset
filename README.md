@@ -15,10 +15,10 @@ Modules
 Practically this is a microframework and the aim is to keep the core simple but extensible.
 For now are available these modules:
 - dataset-core (defines the core interfaces and classes; add `InMemoryDataSet` and `ResultSetDataSet` implementations)
-- dataset-csv (add `CsvDataSet`)
-- dataset-json (add `JsonDataSet`)
-- dataset-xls (add `XlsDataSet`)
-- dataset-xml (add `XmlDataSet`)
+- __dataset-csv__ (add `CsvDataSet`)
+- __dataset-json__ (add `JsonDataSet`)
+- __dataset-xls__ (add `XlsDataSet`)
+- __dataset-xml__ (add `XmlDataSet`)
 
 Using Maven
 -------------------
