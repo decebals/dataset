@@ -116,13 +116,11 @@ public class JsonDataSet implements DataSet {
 
         @Override
         public JsonDataSet build() {
-            /*
             if (dataSet.metaData == null) {
-                dataSet.metaData = dataSet.createDefaultMetaData();
+//                dataSet.metaData = dataSet.createDefaultMetaData();
+                throw new IllegalArgumentException("JsonDataSet.metaData cannot be null");
             }
-            */
 
-            // TODO perform validation on mandatory fields
             return dataSet;
         }
 

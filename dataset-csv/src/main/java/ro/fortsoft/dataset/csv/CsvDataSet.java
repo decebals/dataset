@@ -157,9 +157,9 @@ public class CsvDataSet implements DataSet {
             if (dataSet.metaData == null) {
                 dataSet.metaData = dataSet.createDefaultMetaData();
 //                dataSet.defaultMetaData = true;
+                dataSet.useHeader = false;
             }
 
-            // TODO perform validation on mandatory fields
             return dataSet;
         }
 

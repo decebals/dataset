@@ -164,7 +164,15 @@ public class XmlDataSet implements DataSet {
 
         @Override
         public XmlDataSet build() {
-            // TODO perform validation on mandatory fields
+            if (dataSet.metaData == null) {
+//                dataSet.metaData = dataSet.createDefaultMetaData();
+                throw new IllegalArgumentException("XmlDataSet.metaData cannot be null");
+            }
+
+            if (dataSet.expression == null) {
+                throw new IllegalArgumentException("XmlDataSet.expression cannot be null");
+            }
+
             return dataSet;
         }
 

@@ -145,7 +145,6 @@ public class XlsDataSet implements DataSet {
                 dataSet.metaData = dataSet.createDefaultMetaData();
             }
 
-            // TODO perform validation on mandatory fields
             return dataSet;
         }
 
